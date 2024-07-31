@@ -46,6 +46,7 @@ const RAW_RUNTIME_STATE =
       [null, {\
         "packageLocation": "./",\
         "packageDependencies": [\
+          ["clsx", "npm:2.1.1"],\
           ["gh-pages", "npm:5.0.0"],\
           ["react", "npm:17.0.2"],\
           ["react-dom", "virtual:824c58c4ca55fef1a076a1e64b7aec198a1ece2c5def509c3d1d297365e28d0ced92769a9e6ef28770f6904227157ce4b4bf37f4004599fd784716c78f724d03#npm:17.0.2"]\
@@ -7396,6 +7397,13 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "./.yarn/cache/clsx-npm-1.2.1-77792dc182-5ded6f61f1.zip/node_modules/clsx/",\
         "packageDependencies": [\
           ["clsx", "npm:1.2.1"]\
+        ],\
+        "linkType": "HARD"\
+      }],\
+      ["npm:2.1.1", {\
+        "packageLocation": "./.yarn/cache/clsx-npm-2.1.1-96125b98be-cdfb57fa6c.zip/node_modules/clsx/",\
+        "packageDependencies": [\
+          ["clsx", "npm:2.1.1"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -17822,6 +17830,7 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "./",\
         "packageDependencies": [\
           ["website-components-template", "workspace:."],\
+          ["clsx", "npm:2.1.1"],\
           ["gh-pages", "npm:5.0.0"],\
           ["react", "npm:17.0.2"],\
           ["react-dom", "virtual:824c58c4ca55fef1a076a1e64b7aec198a1ece2c5def509c3d1d297365e28d0ced92769a9e6ef28770f6904227157ce4b4bf37f4004599fd784716c78f724d03#npm:17.0.2"]\
