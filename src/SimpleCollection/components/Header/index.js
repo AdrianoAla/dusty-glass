@@ -24,8 +24,8 @@ export default (props) => {
 
       style={
         {
-          '--bg-opacity-light': '0.9',
-          '--bg-opacity-dark': '0.9',
+          '--bg-opacity-light': '0.5',
+          '--bg-opacity-dark': '0.5',
         }
       }
       
