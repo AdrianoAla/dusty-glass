@@ -21,7 +21,7 @@ export default (props) => {
           ? 'bg-white dark:bg-zinc-900'
           : 'bg-white/[var(--bg-opacity-light)] dark:bg-zinc-900/[var(--bg-opacity-dark)]',
       )}
-
+      
     >
       <div
         className={clsx(
@@ -31,7 +31,7 @@ export default (props) => {
         )}
       />
       
-      {/* <Search /> */}
+      <Search />
       {/* <div className="flex items-center gap-5 lg:hidden">
         <MobileNavigation />
         <Link href="/" aria-label="Home">
@@ -58,3 +58,21 @@ export default (props) => {
   );
 
 };
+
+const Search = () => {
+  return (
+    <div className="hidden lg:block lg:max-w-md lg:flex-auto">
+      <button
+        type="button"
+        className="items-center hidden w-full h-8 gap-2 pl-2 pr-3 text-sm transition bg-white rounded-full text-zinc-500 ring-1 ring-zinc-900/10 hover:ring-zinc-900/20 ui-not-focus-visible:outline-none lg:flex dark:bg-white/5 dark:text-zinc-400 dark:ring-inset dark:ring-white/10 dark:hover:ring-white/20"
+      >
+        Find something...
+        <kbd className="ml-auto text-2xs text-zinc-400 dark:text-zinc-500">
+          <kbd className="font-sans">{modifierKey}</kbd>
+          <kbd className="font-sans">K</kbd>
+        </kbd>
+      </button>
+
+    </div>
+  )
+}
