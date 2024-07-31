@@ -11176,6 +11176,7 @@ __metadata:
     "@headlessui/react": "npm:^1.7.13"
     "@tailwindcss/line-clamp": "npm:^0.4.4"
     "@uniwebcms/module-sdk": "npm:^1.22.0"
+    clsx: "npm:^2.1.1"
     react: "npm:^18.2.0"
     react-dom: "npm:^18.2.0"
     react-icons: "npm:^4.8.0"

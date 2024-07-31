@@ -16043,6 +16043,7 @@ const RAW_RUNTIME_STATE =
           ["@headlessui/react", "virtual:d929ae42cb26a9a30f37225e3d83e632dddd0d18ee93a78e943cde9c8ee349603430b731830395da160d9ad77a45370b99ba10b2dfe6e9a54588c351f2f3ed05#npm:1.7.16"],\
           ["@tailwindcss/line-clamp", "virtual:d929ae42cb26a9a30f37225e3d83e632dddd0d18ee93a78e943cde9c8ee349603430b731830395da160d9ad77a45370b99ba10b2dfe6e9a54588c351f2f3ed05#npm:0.4.4"],\
           ["@uniwebcms/module-sdk", "virtual:d929ae42cb26a9a30f37225e3d83e632dddd0d18ee93a78e943cde9c8ee349603430b731830395da160d9ad77a45370b99ba10b2dfe6e9a54588c351f2f3ed05#npm:1.22.0"],\
+          ["clsx", "npm:2.1.1"],\
           ["react", "npm:18.2.0"],\
           ["react-dom", "virtual:d929ae42cb26a9a30f37225e3d83e632dddd0d18ee93a78e943cde9c8ee349603430b731830395da160d9ad77a45370b99ba10b2dfe6e9a54588c351f2f3ed05#npm:18.2.0"],\
           ["react-icons", "virtual:d929ae42cb26a9a30f37225e3d83e632dddd0d18ee93a78e943cde9c8ee349603430b731830395da160d9ad77a45370b99ba10b2dfe6e9a54588c351f2f3ed05#npm:4.12.0"],\
