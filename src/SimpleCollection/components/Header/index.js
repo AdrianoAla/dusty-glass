@@ -21,6 +21,13 @@ export default (props) => {
           ? 'bg-white dark:bg-zinc-900'
           : 'bg-white/[var(--bg-opacity-light)] dark:bg-zinc-900/[var(--bg-opacity-dark)]',
       )}
+
+      style={
+        {
+          '--bg-opacity-light': '0.9',
+          '--bg-opacity-dark': '0.9',
+        }
+      }
       
     >
       <div
@@ -47,8 +54,8 @@ export default (props) => {
             <a href="#">Support</a>
           </ul>
         </nav>
-        {/* <div className="hidden md:block md:h-5 md:w-px md:bg-zinc-900/10 md:dark:bg-white/15" />
-        <div className="flex gap-4">
+        <div className="hidden md:block md:h-5 md:w-px md:bg-zinc-900/10 md:dark:bg-white/15" />
+        {/* <div className="flex gap-4">
           <MobileSearch />
           <ThemeToggle />
         </div> */}
