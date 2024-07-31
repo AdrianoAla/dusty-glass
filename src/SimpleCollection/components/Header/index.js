@@ -68,7 +68,7 @@ const Search = () => {
       >
         Find something...
         <kbd className="ml-auto text-2xs text-zinc-400 dark:text-zinc-500">
-          <kbd className="font-sans">{modifierKey}</kbd>
+          <kbd className="font-sans">⌘</kbd>
           <kbd className="font-sans">K</kbd>
         </kbd>
       </button>
